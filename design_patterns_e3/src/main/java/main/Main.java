@@ -7,6 +7,8 @@ public class Main {
 
 		Product product = Product.builder().id(10).name("Beer").build();
 		Product product2 = Product.builder().id(11).name("Beer2").build();
+		Product product3 = Product.builder().id(11).name("Beer2").build();
+		
 		
 
 	}

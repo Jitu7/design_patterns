@@ -8,7 +8,7 @@ public class Product {
 	private String name;
 	private BigDecimal price;
 
-	private static class Builder {
+	public static class Builder {
 
 		private final Product product = new Product();
 
@@ -32,8 +32,8 @@ public class Product {
 		}
 	}
 	
-	public static Product builder() {
-		return new Product();
+	public static Builder builder() {
+		return new Product.Builder();
 	}
 
 }
